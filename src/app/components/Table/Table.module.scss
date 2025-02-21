@@ -1,0 +1,46 @@
+.table {
+  border: 1px solid black;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 50px 1fr 100px 100px 100px;
+}
+
+.head {
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+  min-width: 0;
+}
+
+.cell {
+  padding: 10px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.caption {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 767px) {
+  .table {
+    padding: 10px;
+    grid-template-columns: 30px 1fr 40px 40px 45px;
+  }
+
+  .cell {
+    padding: 5px;
+  }
+}

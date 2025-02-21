@@ -1,0 +1,29 @@
+.wrapper {
+  margin-bottom: 40px;
+  min-width: 300px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 5px;
+  font-family: inherit;
+  margin-bottom: 20px;
+}
+
+.inputAge {
+  width: 120px;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: inherit;
+  margin-bottom: 20px;
+}
+
+.caption {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+}
